@@ -1,0 +1,22 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "paths": {
+            "@src/*": [
+              "src/*"
+            ],
+            "@projects/*": [
+              "src/projects/*"
+            ],
+            "@common/*": [
+              "src/common/*"
+            ],
+            "@core/*": [
+              "src/core/*"
+            ],
+            "@schemas/*": [
+              "src/schemas/*"
+            ]
+          }
+    },
+  }
